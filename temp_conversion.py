@@ -28,14 +28,14 @@ Now, can you convert back?
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
-    print(5 * 9/5)+32
+    print((5 * 9/5) +32)
 convert_5_to_fahrenheit()
     
 
 def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
-    celcius = (30.2 + 32)* 9/5
+    celcius = ((30.2 + 32)* 9/5)
     Fahrenheit = (85.1)
     if celcius < Fahrenheit:
         print("farhenheit is the hotter temp")   
