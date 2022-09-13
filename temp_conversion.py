@@ -28,8 +28,8 @@ Now, can you convert back?
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
-    fahrenheit_5 = (5 + 32)*9/5
-    print(fahrenheit_5)
+    fahrenheit_5 = (5 * 9/5)+32
+    print(f"celcius to fahreneit:",fahrenheit_5)
 convert_5_to_fahrenheit()
     
 
