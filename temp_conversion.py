@@ -46,9 +46,9 @@ hotter_temp()
 def to_celcius(num): 
     celcius = (num - 32) * 5/9
     print(celcius)
-to_celcius()
+to_celcius(38)
 
 def to_fahrenheit(num):
     fahrenheit = (num + 32) * 9/5
     print(fahrenheit)
-to_fahrenheit()
+to_fahrenheit(38)
