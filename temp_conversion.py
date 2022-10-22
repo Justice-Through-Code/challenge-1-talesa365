@@ -42,3 +42,13 @@ def hotter_temp():
     elif Fahrenheit < celcius:
         print ("30.2 degrees celsius")
 hotter_temp()
+
+def to_celcius(num): 
+    celcius = (num - 32) * 5/9
+    print(celcius)
+to_celcius()
+
+def to_fahrenheit(num):
+    fahrenheit = (num + 32) * 9/5
+    print(fahrenheit)
+to_fahrenheit()
